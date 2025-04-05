@@ -5,7 +5,7 @@ from stable_baselines3 import PPO
 from stable_baselines3.common.vec_env import DummyVecEnv
 from stable_baselines3.common.callbacks import EvalCallback
 from env import StockTradingEnv
-from process_data import prepare_data, split_data
+from process import prepare_data, split_data
 
 def train_agent(symbol: str = "^BSESN",
                 start_date: str = "2015-01-01",
