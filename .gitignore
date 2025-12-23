@@ -4,3 +4,6 @@ env/
 venv/
 others/
 __pycache__/
+.venv/
+docs/
+models/
